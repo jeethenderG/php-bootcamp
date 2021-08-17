@@ -36,7 +36,7 @@ $unique_names = array_unique($names);
 $max = GetmaxAge($ages);
 
 for ($i=0;$i< count($ages);$i++){
-    if ($ages[$i]==45){
+    if ($ages[$i]==$max){
         $maxAge_names[]= $names[$i];
     }
 }
